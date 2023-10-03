@@ -1,0 +1,65 @@
+.home-page{
+
+  .text-zone{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+  h1{
+    color: white;
+    margin-left: 20%;
+    font-family: "Coolvetica", serif;
+    font-weight: 400;
+    font-size: 4em;
+
+    &::before{
+      content: '<h1>';
+      font-family: "La Belle Aurore", serif;
+      color: #f5e472;
+      font-size: 18px;
+      position: absolute;
+      //margin-bottom: 20%;
+      margin-top: -40px;
+      left: 15px;
+      opacity: 0.6;
+    }
+
+    &::after{
+      content: '</h1>';
+      font-family: "La Belle Aurore", serif;
+      color: #f5e472;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 20%;
+      left: 15px;
+      opacity: 0.6;
+    }
+  }
+
+  h2{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+
+  .flat-button{
+    color: #f5e472;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #f5e472;
+    margin-top: 30%;
+    margin-left: 10%;
+    float: left;
+
+    &:hover{
+      background: #f5e472;
+      color: black;
+    }
+  }
+}
