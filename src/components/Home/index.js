@@ -1,6 +1,5 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
-import Logo from '../Logo'
 const Home = () => {
     return (
         <div className='container home-page'>
@@ -14,7 +13,6 @@ const Home = () => {
                     Android Developer / MERN
                 </h2>
                 <Link to='/contact' class='flat-button'>CONTACT ME</Link>
-              <Logo/>
                 {/*<Link to='/projects'>MY PROJECTS</Link>*/}
             </div>
         </div>
