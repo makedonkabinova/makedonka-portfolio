@@ -1,6 +1,6 @@
 .nav-bar{
   background: #181818;
-  width: 5%;
+  width: 60px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -15,10 +15,8 @@
   img{
     display: block;
     margin: 8px auto;
-    max-height: 100%; /* Set a maximum height relative to its parent */
-    max-width: 100%; /* Set a maximum width relative to its parent */
+    height: 40px;
     width: auto;
-    height: auto;
   }
 }
 
