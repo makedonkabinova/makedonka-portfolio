@@ -26,7 +26,6 @@
     li {
       padding: 0;
       list-style: none;
-      margin: 0 0 10px;
       opacity: 0;
       overflow: hidden;
       display: block;
@@ -34,18 +33,22 @@
       position: relative;
       animation: fadeInUp 2s 2s;
       animation-fill-mode: forwards;
-    }
-
-    li.half {
       width: 49%;
-      margin-left: 2%;
+      margin: 0 0 10px 2%;
       //float: right;
-      clear: none;
-
-      &:first-child {
-        //margin-left: 0;
-      }
+      //clear: none;
     }
+
+    //li.half {
+    //  width: 49%;
+    //  margin-left: 2%;
+    //  //float: right;
+    //  clear: none;
+    //
+    //  &:first-child {
+    //    //margin-left: 0;
+    //  }
+    //}
   }
 
   input[type='text'],
