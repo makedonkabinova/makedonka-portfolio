@@ -1,0 +1,14 @@
+.logo-container{
+  z-index: 0;
+  width: 100%;
+  position: absolute;
+  //right: 10%;
+  left: 105%;
+  top: 50%;
+  transform: translateY(-50%);
+  .solid-logo{
+    top:0;
+    width: 100%;
+    max-width: 500px;
+  }
+}

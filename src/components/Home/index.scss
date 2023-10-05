@@ -10,10 +10,11 @@
   }
   h1{
     color: white;
-    margin-left: 20%;
+    margin-left: 10%;
     font-family: "Coolvetica", serif;
     font-weight: 400;
-    font-size: 4em;
+    font-size: 4vw;
+    position: relative;
 
     &::before{
       content: '<h1>';
@@ -22,8 +23,9 @@
       font-size: 18px;
       position: absolute;
       //margin-bottom: 20%;
-      margin-top: -40px;
-      left: 15px;
+      margin-top: -1.5rem;
+      left: -0.1w;
+      line-height: 18px;
       opacity: 0.6;
     }
 
@@ -34,7 +36,7 @@
       font-size: 18px;
       position: absolute;
       margin-top: 20%;
-      left: 15px;
+      left: -0.1w;
       opacity: 0.6;
     }
   }
@@ -43,11 +45,12 @@
     position: absolute;
     margin-top: 15%;
     margin-left: 10%;
+    font-size: 1.5vw;
   }
 
   .flat-button{
     color: #f5e472;
-    font-size: 15px;
+    font-size: 1.5vw;
     font-weight: 400;
     font-family: sans-serif;
     text-decoration: none;
