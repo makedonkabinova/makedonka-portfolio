@@ -1,4 +1,5 @@
 import './index.scss'
+import Logo from '../Logo'
 
 const About = () => {
     return(
@@ -16,6 +17,7 @@ const About = () => {
                 <p>
                     I'm enthusiastic about applying my skills in real-world scenarios and eager to learn even more about these dynamic fields. I look forward to collaborating on innovative projects and contributing to the ever-evolving tech landscape.
                 </p>
+                <Logo />
             </div>
         </div>
     )
