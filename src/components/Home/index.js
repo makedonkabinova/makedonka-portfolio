@@ -1,5 +1,6 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
+import Logo from '../Logo'
 const Home = () => {
     return (
         <div className='container home-page'>
@@ -15,6 +16,7 @@ const Home = () => {
                 <Link to='/contact' class='flat-button'>CONTACT ME</Link>
                 {/*<Link to='/projects'>MY PROJECTS</Link>*/}
             </div>
+            <Logo/>
         </div>
     )
 }
