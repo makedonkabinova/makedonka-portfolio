@@ -1,0 +1,16 @@
+.logo-container{
+  z-index: 0;
+  width: 40%;
+  max-width: 40%;
+  right: 10%;
+  height: auto;
+  position: absolute;
+  margin: auto;
+  left: auto;
+  top: 30%;
+
+  .logo{
+    width: 100%;
+    //transform: rotateZ(30deg);
+  }
+}
