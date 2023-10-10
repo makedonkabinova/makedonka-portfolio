@@ -1,0 +1,49 @@
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30vh;
+  padding: 10%;
+  text-align: center;
+  justify-content: center; /* Center the grid horizontally */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+
+  &:hover{
+    animation: pulse 2s;
+    background: #e8dfa7;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  h3 {
+    margin-top: 10px;
+    font-size: 1.6vw;
+
+    a {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #007bff;
+      }
+    }
+  }
+
+  p {
+    font-size: 1vw;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  a {
+    font-size: 1.3vw;
+  }
+}

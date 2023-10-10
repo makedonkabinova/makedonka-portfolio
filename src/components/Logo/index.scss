@@ -1,5 +1,5 @@
 .logo-container{
-  z-index: 0;
+  z-index: -1;
   width: 40%;
   max-width: 40%;
   right: 10%;
@@ -7,10 +7,21 @@
   position: absolute;
   margin: auto;
   left: auto;
-  top: 30%;
+  top: 20%;
 
   .logo{
     width: 100%;
-    //transform: rotateZ(30deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    width: 80%; /* Adjusted width for smaller screens */
+    max-width: 80%; /* Adjusted max-width for smaller screens */
+    left: 10%; /* Adjusted right margin for smaller screens */
+    top: 30%;
+    bottom: 10%;
+    position: absolute;
+    opacity: 10%;
   }
 }

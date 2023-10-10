@@ -1,22 +1,25 @@
 .nav-bar{
   background: #181818;
-  width: 60px;
+  width: 5%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 3;
-  min-height: 500px;
+  //min-height: 100%;
+  transition: width 0.3s;
 }
 
 .logo{
   display: block;
-  padding: 8px 0;
+  padding: 10%;
+  width: 80%;
 
   img{
     display: block;
     margin: 8px auto;
-    height: 40px;
-    width: auto;
+    height: auto;
+    width: 90%;
+    max-width: 100%;
   }
 }
 
@@ -30,10 +33,10 @@ nav{
   width: 100%;
 
   a{
-    font-size: 22px;
+    font-size: 1.8vw;
     color: #4d4d4e;
     display: block;
-    height: 51px;
+    height: 8vh;
     line-height: 51px;
     position: relative;
     text-decoration: none;
@@ -47,6 +50,7 @@ nav{
 
       svg{
         opacity: 0;
+        max-width: 90%;
       }
 
       &:after{
@@ -69,22 +73,30 @@ nav{
 
     &:first-child{
       &::after{
+        text-align: center;
+        font-size: 0.5vw;
         content: 'HOME';
       }
     }
   }
   a.about-link{
     &:after{
+      text-align: center;
+      font-size: 0.5vw;
       content:'ABOUT';
     }
   }
   a.contact-link{
     &:after{
+      text-align: center;
+      font-size: 0.5vw;
       content:'CONTACT';
     }
   }
   a.projects-link{
     &:after{
+      text-align: center;
+      font-size: 0.5vw;
       content:'PROJECTS';
     }
   }
@@ -97,7 +109,7 @@ nav{
 }
 ul{
   position: absolute;
-  bottom: 20px;
+  bottom: 5%;
   width: 100%;
   display: block;
   padding: 0;
@@ -107,13 +119,23 @@ ul{
 
   li{
     a{
-      padding: 7px 0;
+      padding: 7% 0;
       display: block;
-      font-size: 15px;
+      font-size: 1.2vw;
       line-height: 16px;
 
       &:hover svg {
         color: #f5e472;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .nav-bar{
+    .logo{
+      width: 85%;
+      .img{
+        padding: 20%;
       }
     }
   }

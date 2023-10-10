@@ -1,5 +1,5 @@
 import './index.scss'
-import LetterM from '../../assets/images/portfolio-logo-letter.png'
+import LetterM from '../../assets/images/MB_logo_outlined.svg'
 const Logo = () => {
   return(
     <div className='logo-container'>

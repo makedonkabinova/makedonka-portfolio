@@ -1,0 +1,19 @@
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 3fr));
+  grid-gap: 5%;
+  justify-content: center; /* Center the grid horizontally */
+  max-width: 80%;
+  margin: 5% auto 50% 11%;
+}
+
+.projects_title{
+  margin-left: 45%;
+  max-width: 100%;
+  font-size: 3vw;
+
+  a{
+    text-decoration: none;
+    color: #f5e472;
+  }
+}

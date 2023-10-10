@@ -7,14 +7,12 @@ const Home = () => {
             <div className='text-zone'>
                 <h1>
                     Hi, <br/>
-                    I'm Makedonka<br/>
-                    web & mobile developer
+                    I'm Makedonka
                 </h1>
                 <h2>
-                    Android Developer / MERN
+                  web & mobile developer
                 </h2>
                 <Link to='/contact' class='flat-button'>CONTACT ME</Link>
-                {/*<Link to='/projects'>MY PROJECTS</Link>*/}
             </div>
             <Logo/>
         </div>

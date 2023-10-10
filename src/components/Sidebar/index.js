@@ -1,5 +1,5 @@
 import './index.scss'
-import LogoM from '../../assets/images/portfolio-logo.png'
+import LogoM from '../../assets/images/MB_logo.svg'
 import  { Link, NavLink } from 'react-router-dom'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCode, faEnvelope, faHome, faUser} from "@fortawesome/free-solid-svg-icons";
