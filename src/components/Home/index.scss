@@ -21,7 +21,6 @@
       color: #f5e472;
       font-size: 1.5vw;
       position: absolute;
-      //margin-bottom: 20%;
       margin-top: -10%;
       left: 5%;
       opacity: 0.6;
@@ -71,13 +70,10 @@
   .home-page{
     .text-zone{
       h1{
-        font-size: 6vw; // Adjusted for smaller screens
+        font-size: 6vw;
         min-width: 200px;
         width: 100%;
       }
-      //.flat-button{
-      //  height: ;
-      //}
     }
   }
 }

@@ -11,7 +11,6 @@
 
 .bottom-tags{
   bottom: 0;
-  //position: fixed;
 }
 
 .tags{
@@ -22,7 +21,7 @@
   left: 7%;
   font-size: 1.5vw;
   font-family: 'Playball-Regular', serif;
-  margin-bottom: 1%; /* Add margin to the bottom to create space */
+  margin-bottom: 1%;
 }
 
 .container{
@@ -34,8 +33,6 @@
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
-  //animation: fade-in 1s forwards;
-  //animation-delay: 1s;
 }
 
 .about-page, .contact-page{
@@ -43,7 +40,6 @@
     color: white;
     position: absolute;
     left: 10%;
-    //right: 10%;
     top: 50%;
     transform: translateY(-50%);
     width: 70%;
@@ -93,7 +89,6 @@
     font-weight: 300;
     margin-bottom: 20px;
     display: block;
-    //min-width: fit-content;
     max-width: 50%;
     font-family: sans-serif;
 
@@ -114,17 +109,17 @@
 @media (max-width: 768px) {
   .about-page, .contact-page {
     .text-zone {
-      width: 90%; // Adjusted for smaller screens
+      width: 90%;
       text-align: left;
 
       h1 {
-        font-size: 6vw; // Adjusted for smaller screens
-        margin-bottom: 10px; // Adjusted for spacing
+        font-size: 6vw;
+        margin-bottom: 10px;
       }
 
       p {
-        font-size: 3vw; // Adjusted for smaller screens
-        margin-bottom: 15px; // Adjusted for spacing
+        font-size: 3vw;
+        margin-bottom: 15px;
         max-width: fit-content;
         margin-right: 5%;
       }
