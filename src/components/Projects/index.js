@@ -6,6 +6,7 @@ import KidsDrawingApp from '../../assets/images/kids_drawing_app_project.png'
 import Portfolio from '../../assets/images/portfolio_project.png'
 import EaticalMobile from '../../assets/images/eatical_mobile_project.png'
 import LostAndFound from '../../assets/images/lost_and_found_project.png'
+
 const Projects = () => {
   const projects = [
     {
@@ -44,7 +45,6 @@ const Projects = () => {
       githubLink: '',
       description: 'Simple app for lost and found items. The app is still in progress.'
     }
-    // Add more project objects as needed
   ];
 
   return (
