@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/makedonka-portfolio/static/css/main.935d62b9.css",
+    "main.js": "/makedonka-portfolio/static/js/main.3e470fdd.js",
+    "static/js/787.9488d8c4.chunk.js": "/makedonka-portfolio/static/js/787.9488d8c4.chunk.js",
+    "static/media/eatical_web_project.png": "/makedonka-portfolio/static/media/eatical_web_project.25168ea2ce72f2878739.png",
+    "static/media/portfolio_project.png": "/makedonka-portfolio/static/media/portfolio_project.def116e2a2651eaaedb5.png",
+    "static/media/eatical_desktop_project.png": "/makedonka-portfolio/static/media/eatical_desktop_project.bc3a3698d27bb800e026.png",
+    "static/media/kids_drawing_app_project.png": "/makedonka-portfolio/static/media/kids_drawing_app_project.1d029fa8b3985a8edeb3.png",
+    "static/media/eatical_mobile_project.png": "/makedonka-portfolio/static/media/eatical_mobile_project.837915f2204543f5c4ec.png",
+    "static/media/lost_and_found_project.png": "/makedonka-portfolio/static/media/lost_and_found_project.a9a243d57939fca6962f.png",
+    "static/media/Playball-Regular.woff2": "/makedonka-portfolio/static/media/Playball-Regular.22abe22e7974db48a495.woff2",
+    "static/media/helvetica-neu.ttf": "/makedonka-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/makedonka-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/makedonka-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/MB_logo.svg": "/makedonka-portfolio/static/media/MB_logo.ad31791f614ab6db11f4033e686e1afa.svg",
+    "static/media/MB_logo_outlined.svg": "/makedonka-portfolio/static/media/MB_logo_outlined.ca21ecd61abae07be0089c6ec4777be9.svg",
+    "index.html": "/makedonka-portfolio/index.html",
+    "main.935d62b9.css.map": "/makedonka-portfolio/static/css/main.935d62b9.css.map",
+    "main.3e470fdd.js.map": "/makedonka-portfolio/static/js/main.3e470fdd.js.map",
+    "787.9488d8c4.chunk.js.map": "/makedonka-portfolio/static/js/787.9488d8c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.935d62b9.css",
+    "static/js/main.3e470fdd.js"
+  ]
+}
