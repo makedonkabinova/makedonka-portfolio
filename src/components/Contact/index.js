@@ -30,9 +30,11 @@ const Contact = () => {
       <div className='text-zone'>
         <h1>Makedonka Binova</h1>
         <p>
-          I am interested in freelance opportunities - especially on ambitious
-          or large projects. However, if you have any other requests or
-          questions, don't hesitate to contact me using below form either.
+          I'm enthusiastic about diving into Android and mobile development,
+          as well as exploring exciting web platforms. At our faculty,
+          we delved into a diverse range of web technologies, which equipped me with a knack for swiftly grasping new concepts.
+          I believe this adaptability will be a great asset as I venture into these new realms. Don't hesitate to contact me.
+          Looking forward to the opportunities ahead!
         </p>
       </div>
       <div className='contact-form'>

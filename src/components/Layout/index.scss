@@ -6,31 +6,30 @@
 
 .top-tags {
   bottom: auto;
-  top: 35px;
+  top: 3vh;
 }
 
+.bottom-tags{
+  bottom: 0;
+  //position: fixed;
+}
 
 .tags{
   color: #f5e472;
   opacity: 0.6;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left: 120px;
-  font-size: 18px;
-  font-family: 'La Belle Aurore';
-}
-
-.bottom-tag-html{
-  margin-left: -20px;
+  left: 7%;
+  font-size: 1.5vw;
+  font-family: 'Playball-Regular', serif;
+  margin-bottom: 1%; /* Add margin to the bottom to create space */
 }
 
 .container{
   width: 100%;
-  will-change: contents;
   height: 90%;
-  min-height: 566px;
+  min-height: 300px;
   position: absolute;
-  //opacity: 0;
   top: 5%;
   margin: 0 auto;
   z-index: 1;
@@ -44,54 +43,58 @@
     color: white;
     position: absolute;
     left: 10%;
+    //right: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 35%;
+    width: 70%;
     vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
+    max-height: 70%;
+    display: block;
+    text-align: left;
+    margin: 0 auto;
 
     h1{
-      font-size: 40px;
+      font-size: 3vw;
       font-family: Coolvetica, sans-serif;
       font-weight: 400;
       margin-top: 0;
-      //margin-left: 10%;
-      //margin-bottom: 40px;
-      position: relative;
+      margin-bottom: 20px;
+      display: block;
 
       &::before{
         content: '<h1>';
-        font-family: "La Belle Aurore", serif;
+        font-family: "Playball-Regular", serif;
         font-weight: 400;
         opacity: 0.6;
         color: #f5e472;
-        font-size: 18px;
+        font-size: 1.5vw;
         position: absolute;
-        left: -30px;
+        left: -3%;
         margin-top: -10px;
         line-height: 18px;
       }
 
       &::after{
         content: '</h1>';
-        font-family: "La Belle Aurore", serif;
+        font-family: "Playball-Regular", serif;
         font-weight: 400;
         opacity: 0.6;
         color: #f5e472;
-        font-size: 18px;
+        font-size: 1.5vw;
         position: absolute;
-        left: -30px;
+        left: -3%;
         line-height: 18px;
-        bottom: -20px;
-        margin-top: 10px;
+        margin-top: 5%;
       }
     }
   }
   p{
-    font-size: 14px;
+    font-size: 1vw;
     font-weight: 300;
-    min-width: fit-content;
+    margin-bottom: 20px;
+    display: block;
+    //min-width: fit-content;
+    max-width: 50%;
     font-family: sans-serif;
 
     &:nth-of-type(1){
@@ -104,6 +107,27 @@
 
     &:nth-of-type(3){
       animation: pulse 1.6s;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page, .contact-page {
+    .text-zone {
+      width: 90%; // Adjusted for smaller screens
+      text-align: left;
+
+      h1 {
+        font-size: 6vw; // Adjusted for smaller screens
+        margin-bottom: 10px; // Adjusted for spacing
+      }
+
+      p {
+        font-size: 3vw; // Adjusted for smaller screens
+        margin-bottom: 15px; // Adjusted for spacing
+        max-width: fit-content;
+        margin-right: 5%;
+      }
     }
   }
 }
