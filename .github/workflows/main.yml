@@ -1,4 +1,4 @@
-name: Deploy Portfolio App
+name: Deploy Portfolio
 
 on:
   push:
