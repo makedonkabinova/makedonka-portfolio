@@ -47,63 +47,66 @@ nav{
 
     &:hover{
       color: #f5e472;
-
-      svg{
-        opacity: 0;
-        max-width: 90%;
-      }
-
-      &:after{
-        opacity: 1;
-      }
-    }
-
-    &:after{
-      content: '';
-      font-size: 9px;
-      letter-spacing: 2px;
-      position: absolute;
-      bottom: 0;
-      display: block;
-      width: 100%;
-      text-align: center;
-      opacity: 0;
-      transition: all 0.3s ease-out;
-    }
-
-    &:first-child{
-      &::after{
-        text-align: center;
-        font-size: 0.5vw;
-        content: 'HOME';
-      }
-    }
-  }
-  a.about-link{
-    &:after{
-      text-align: center;
-      font-size: 0.5vw;
-      content:'ABOUT';
-    }
-  }
-  a.contact-link{
-    &:after{
-      text-align: center;
-      font-size: 0.5vw;
-      content:'CONTACT';
-    }
-  }
-  a.projects-link{
-    &:after{
-      text-align: center;
-      font-size: 0.5vw;
-      content:'PROJECTS';
     }
   }
 
   a.active{
     svg{
       color: #f5e472;
+    }
+  }
+  @media (min-width: 768px) {
+    a {
+      &:hover{
+        svg{
+          opacity: 0;
+          max-width: 90%;
+        }
+
+        &:after{
+          opacity: 1;
+        }
+      }
+      &:after {
+        content: '';
+        font-size: 9px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+    }
+    a.home-link{
+      &:after{
+        text-align: center;
+        font-size: 0.5vw;
+        content: 'HOME';
+      }
+    }
+    a.about-link{
+      &:after{
+        text-align: center;
+        font-size: 0.5vw;
+        content:'ABOUT';
+      }
+    }
+    a.contact-link{
+      &:after{
+        text-align: center;
+        font-size: 0.5vw;
+        content:'CONTACT';
+      }
+    }
+    a.projects-link{
+      &:after{
+        text-align: center;
+        font-size: 0.5vw;
+        content:'PROJECTS';
+      }
     }
   }
 }
@@ -137,6 +140,11 @@ ul{
       .img{
         padding: 20%;
       }
+    }
+  }
+  nav{
+    a{
+
     }
   }
 }
