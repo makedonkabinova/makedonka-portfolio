@@ -1,30 +1,23 @@
 import './index.scss'
-import { useRef } from 'react'
-import * as emailjs from '@emailjs/browser'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { useState, useEffect } from 'react';
+
 const Contact = () => {
-  const form = useRef()
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
-  const sendEmail = (e) => {
-    e.preventDefault()
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
 
-    emailjs
-      .sendForm
-      (
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-        form.current,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
-  }
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return(
     <div className='container contact-page'>
       <div className='text-zone'>
@@ -37,46 +30,27 @@ const Contact = () => {
           Looking forward to the opportunities ahead!
         </p>
       </div>
-      <div className='contact-form'>
-        <form ref={form} onSubmit={sendEmail}>
-          <ul>
-            <li className="half">
-              <input
-                placeholder="Name"
-                type="text"
-                name="name"
-                required
-              />
-            </li>
-            <li className="half">
-              <input
-                placeholder="Email"
-                type="email"
-                name="email"
-                required
-              />
-            </li>
-            <li>
-              <input
-                placeholder="Subject"
-                type="text"
-                name="subject"
-                required
-              />
-            </li>
-            <li>
-              <textarea
-                placeholder="Message"
-                name="message"
-                required
-              />
-            </li>
-            <li>
-              <input type="submit" className="flat-button" value="SEND" />
-            </li>
-          </ul>
-        </form>
+    <div className='make-contact'>
+      <h1>Get in touch</h1>
+      <div className="contact-info">
+        <div className="item">
+          <FontAwesomeIcon icon={faEnvelope} />
+          <a href="mailto:makedonka.binova@yahoo.com">makedonka.binova@yahoo.com</a>
+        </div>
+        <div className="item telephone">
+          <FontAwesomeIcon icon={faPhone} />
+          {isMobile ? (
+            <a href="tel:+38669740315">+38669740315</a>
+          ) : (
+            <span>+38669740315</span>
+          )}
+        </div>
+        <div className="item">
+          <FontAwesomeIcon icon={faLinkedin} />
+          <a href="https://www.linkedin.com/in/makedonka-binova" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
       </div>
+    </div>
     </div>
   )
 }

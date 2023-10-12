@@ -1,5 +1,4 @@
 .home-page{
-
   .text-zone{
     position: absolute;
     left: 10%;
@@ -43,7 +42,6 @@
     margin-top: 10%;
     margin-left: 10%;
     font-size: 1.5vw;
-    transform: translateY(50%);
   }
 
   .flat-button{
@@ -55,7 +53,7 @@
     text-decoration: none;
     padding: 2% 5%;
     border: 1px solid #f5e472;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 10%;
     float: left;
 
@@ -68,6 +66,7 @@
 
 @media (max-width: 768px) {
   .home-page{
+    overflow: hidden;
     .text-zone{
       h1{
         font-size: 6vw;

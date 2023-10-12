@@ -11,7 +11,7 @@ const Sidebar = () => {
                 <img src={ LogoM } alt='logo'/>
             </Link>
             <nav>
-                <NavLink exact='true' activeClassName='active' to='/'>
+                <NavLink exact='true' activeClassName='active' className='home-link' to='/'>
                     <FontAwesomeIcon icon={faHome}/>
                 </NavLink>
                 <NavLink exact='true' activeClassName='active' className='projects-link' to='/projects'>
@@ -27,7 +27,7 @@ const Sidebar = () => {
             <ul>
                 <li>
                     <a
-                        href="www.linkedin.com/in/makedonka-binova"
+                        href="https://www.linkedin.com/in/makedonka-binova"
                         target="_blank"
                         rel="noreferrer"
                     >
