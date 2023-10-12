@@ -5,7 +5,7 @@
 
   h1 {
     padding: 15px;
-    margin: 0 auto; // Updated to center the h1
+    margin: 0 auto;
     text-align: center;
     color: white;
     font-family: Coolvetica, sans-serif;
@@ -13,43 +13,19 @@
     font-size: 2.5vw;
   }
 
-  @media (max-width: 768px) {
-    float: none;
-    width: 80%;
-    bottom: 40%;
-    height: 60%;
-    margin-bottom: 40%;
-    padding: 10%;
-    h1 {
-      font-size: 7vw;
-    }
-
-    .contact-info {
-      .item {
-        a, span {
-          font-size: 5vw;
-        }
-
-        svg {
-          font-size: 6vw;
-        }
-      }
-    }
-  }
-
   .contact-info {
     align-items: center;
-    flex-direction: column; // Updated to stack items vertically
-    margin: 0 auto; // Added to center the items
+    flex-direction: column;
+    margin: 0 auto;
 
     .item {
-      background: rgba(255, 255, 255, 0.1); // Adjust as needed
+      background: rgba(255, 255, 255, 0.1);
       padding: 15px;
       border-radius: 5px;
-      margin: 10px auto; // Updated to center the item
+      margin: 10px auto;
       transition: all 0.3s ease-in-out;
-      display: flex; // Make the icon and text align horizontally
-      align-items: center; // Center align the icon and text
+      display: flex;
+      align-items: center;
       width: 80%;
 
       &:hover {
@@ -58,7 +34,7 @@
 
       a, span {
         color: white;
-        margin-left: 10px; // Adjusted for horizontal alignment with icon
+        margin-left: 10px;
         text-decoration: none;
         font-size: 1.2vw;
 
@@ -72,6 +48,30 @@
       svg {
         font-size: 2vw;
         color: white;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    float: none;
+    width: 80%;
+    bottom: 40%;
+    height: 60%;
+    margin-bottom: 40%;
+    padding: 10%;
+    h1 {
+      font-size: 5vw;
+    }
+
+    .contact-info {
+      .item {
+        a, span {
+          font-size: 2.5vw;
+        }
+
+        svg {
+          font-size: 5vw;
+        }
       }
     }
   }
