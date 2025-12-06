@@ -1,7 +1,7 @@
 .make-contact {
   width: 50%;
   float: right;
-  transform: translateY(50%);
+  margin-top: 5rem;
 
   h1 {
     padding: 15px;
@@ -37,6 +37,7 @@
         margin-left: 10px;
         text-decoration: none;
         font-size: 1.2vw;
+        font-family: sans-serif;
 
         &:hover {
           text-decoration: underline;
@@ -52,21 +53,18 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     float: none;
     width: 80%;
-    bottom: 40%;
-    height: 60%;
-    margin-bottom: 40%;
+    margin: 2rem auto 0 auto;
     padding: 10%;
     h1 {
-      font-size: 5vw;
+      font-size: 3rem;
     }
-
     .contact-info {
       .item {
         a, span {
-          font-size: 2.5vw;
+          font-size: 1rem;
         }
 
         svg {
@@ -74,5 +72,10 @@
         }
       }
     }
+  }
+
+  @media (min-width: 901px) {
+    transform: translateY(60%);
+
   }
 }

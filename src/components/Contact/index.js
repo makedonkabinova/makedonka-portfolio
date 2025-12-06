@@ -1,7 +1,7 @@
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState, useEffect } from 'react';
 
 const Contact = () => {
@@ -23,11 +23,9 @@ const Contact = () => {
       <div className='text-zone'>
         <h1>Makedonka Binova</h1>
         <p>
-          I'm enthusiastic about diving into Android and mobile development,
-          as well as exploring exciting web platforms. At our faculty,
-          we delved into a diverse range of web technologies, which equipped me with a knack for swiftly grasping new concepts.
-          I believe this adaptability will be a great asset as I venture into these new realms. Don't hesitate to contact me.
-          Looking forward to the opportunities ahead!
+          I'm always happy to connect with fellow developers, collaborate on projects, or explore new opportunities.
+          Whether it’s about mobile, web, AI, or just sharing ideas, feel free to reach out —
+          I would be very happy to hear from you!
         </p>
       </div>
     <div className='make-contact'>
@@ -48,6 +46,11 @@ const Contact = () => {
         <div className="item">
           <FontAwesomeIcon icon={faLinkedin} />
           <a href="https://www.linkedin.com/in/makedonka-binova" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+
+        <div className="item">
+          <FontAwesomeIcon icon={faGithub} />
+          <a href="https://github.com/makedonkabinova" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
       </div>
     </div>

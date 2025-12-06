@@ -44,16 +44,35 @@ const Projects = () => {
       imageUrl: LostAndFound,
       githubLink: '',
       description: 'Simple app for lost and found items. The app is still in progress.'
+    },
+    {
+      title: 'MediConnect',
+      githubLink: 'https://github.com/medi-connect/medi-connect',
+      description: 'A cloud based solution that connects patients to hospitals. For more information, click on the card to see github repository.'
+    },
+    {
+      title: 'Travel Assistant',
+      githubLink: 'https://github.com/makedonkabinova/travel_assistant_flanT5',
+      description: 'School project within the subject Deep Learning, in order to research and learn while finetuning the model Flan-T5 on different dataset variations.'
     }
   ];
 
   return (
-    <div className='container'>
+    <div className='container projects-page'>
       <h1 className='projects_title'>
         <a href='https://github.com/makedonkabinova?tab=repositories'>
-          Projects
+          Some of my projects
         </a>
       </h1>
+        <div className='text-zone'>
+          <p className='projects-intro'>
+            Not every project here is polished — some are small, simple,
+            or born from curiosity rather than perfection.
+            But each one carries a lesson: a new framework learned, a concept understood,
+            a mistake corrected, a spark of creativity followed.
+            Together, they map the path of how I’ve grown as a developer.
+          </p>
+        </div>
       <div className="project-list">
         {projects.map((project, index) => (
           <ProjectCard

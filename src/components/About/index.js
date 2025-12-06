@@ -9,13 +9,15 @@ const About = () => {
                     Makedonka Binova
                 </h1>
                 <p>
-                    Hello! I'm Makedonka, a passionate and driven individual with a strong foundation in Computer Science. Currently in my final year at the Faculty of Electrical Engineering and Computer Science in Maribor. I'm excited to soon graduate as an accomplished professional.
+                    Hello, I'm Makedonka — a computer science graduate with a strong focus on AI, machine learning, and full-stack development. I completed my Bachelor’s degree at the Faculty of Electrical Engineering and Computer Science at the University of Maribor, where I built a solid foundation in both web and mobile technologies.
+                    I’m currently in the second year of my Master’s studies at the Faculty of Computer and Information Science at the University of Ljubljana, specializing in AI and Deep Learning.
                 </p>
                 <p>
-                    My academic journey has equipped me with extensive knowledge in web development and mobile application development. I've had the privilege to work on various projects, allowing me to hone my skills and deliver high-quality applications.
+                    I also have a year of professional experience working with Flutter - mobile development, where I learned how to build reliable features and work within a real development team.
                 </p>
                 <p>
-                    I'm enthusiastic about applying my skills in real-world scenarios and eager to learn even more about these dynamic fields. I look forward to collaborating on innovative projects and contributing to the ever-evolving tech landscape.
+                    I've built mobile apps, web platforms, backend services, and deep learning projects — each one teaching me something new about problem-solving, architecture, and user experience.
+                    I’m motivated by curiosity and real-world impact. If a project challenges me or helps someone, I’m all in.
                 </p>
             </div>
             <Logo/>

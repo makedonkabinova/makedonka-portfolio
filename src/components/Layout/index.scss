@@ -12,12 +12,14 @@
 .tags{
   color: #f5e472;
   opacity: 0.6;
+  //position: relative;
   position: fixed;
   bottom: 0;
   left: 7%;
   font-size: 1.5vw;
   font-family: 'Playball-Regular', serif;
   margin-bottom: 1%;
+  //margin-top: 5%;
 }
 
 .container{
@@ -29,6 +31,10 @@
 }
 
 .about-page, .contact-page{
+
+  //.tags{
+  //  position: relative;
+  //}
   .text-zone{
     color: white;
     position: absolute;
@@ -43,11 +49,11 @@
     margin: 0 auto;
 
     h1{
-      font-size: 3vw;
+      font-size: 2.5rem;
       font-family: Coolvetica, sans-serif;
       font-weight: 400;
       margin-top: 0;
-      margin-bottom: 20px;
+      margin-bottom: 5%;
       display: block;
 
       &::before{
@@ -78,7 +84,7 @@
     }
   }
   p{
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight: 300;
     margin-bottom: 20px;
     display: block;
@@ -99,8 +105,23 @@
   }
 }
 
-@media (max-width: 768px) {
-  .about-page, .contact-page {
+//@media (max-height: 1000px) {
+//  .about-page{
+//    .page{
+//        .tags{
+//            position: relative;
+//        }
+//    }
+//  }
+//}
+@media (max-width: 900px) {
+  .about-page {
+    //.page {
+    //  .tags {
+    //    position: relative !important;
+    //  }
+    //}
+    overflow: hidden;
     .text-zone {
       width: 90%;
       text-align: left;
@@ -111,7 +132,7 @@
       }
 
       p {
-        font-size: 3vw;
+        font-size: 0.8rem;
         margin-bottom: 15px;
         max-width: fit-content;
         margin-right: 5%;
@@ -119,13 +140,36 @@
     }
   }
 
-  .contact-page{
-    .text-zone{
-      top: 30%;
-    }
+  .contact-page {
+    //overflow: hidden;
+    position: relative;
   }
 
-  .about-page{
-    overflow: hidden;
+  .contact-page .text-zone {
+    position: static !important;
+    transform: none !important;
+    top: auto !important;
+    left: auto !important;
+
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 5rem;
+    text-align: left;
+  }
+
+  .contact-page .text-zone h1 {
+    font-size: 6vw;
+    margin-bottom: 1rem;
+    //margin-left: 4rem;
+  }
+
+  .contact-page .text-zone p {
+    //width: 100%;
+    max-width: 70%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    //margin-left: 4rem;
+    text-align: justify;
   }
 }

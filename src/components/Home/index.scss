@@ -12,7 +12,8 @@
     margin-left: 20%;
     font-family: "Coolvetica", serif;
     font-weight: 400;
-    font-size: 3vw;
+    font-size: 3rem;
+    //margin-bottom: 5%;
 
     &::before{
       content: '<h1>';
@@ -38,15 +39,17 @@
   }
 
   h2{
-    position: absolute;
-    margin-top: 10%;
+    //position: absolute;
+    margin-top: 15%;
     margin-left: 10%;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    position: relative;
   }
 
   .flat-button{
     color: #f5e472;
-    font-size: 0.7vw;
+    font-size: 0.7rem;
     height: 100%;
     font-weight: 400;
     font-family: sans-serif;
@@ -64,15 +67,27 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .home-page{
-    overflow: hidden;
+    //overflow: hidden;
     .text-zone{
       h1{
-        font-size: 6vw;
+        //font-size: 6vw;
         min-width: 200px;
         width: 100%;
+        font-size: 2rem;
       }
+    }
+
+    h2{
+        font-size: 1.4rem;
+        margin-left: 5%;
+    }
+
+    .flat-button{
+        //font-size: 3vw;
+        //margin-top: 50%;
+        margin-left: 5%;
     }
   }
 }

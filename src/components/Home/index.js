@@ -10,7 +10,7 @@ const Home = () => {
                     I'm Makedonka
                 </h1>
                 <h2>
-                  web & mobile developer
+                  Focused on building apps, models, and meaningful digital experiences.
                 </h2>
                 <Link to='/contact' class='flat-button'>CONTACT ME</Link>
             </div>
