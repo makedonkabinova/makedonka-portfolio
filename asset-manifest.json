@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/makedonka-portfolio/static/css/main.5f2b820f.css",
-    "main.js": "/makedonka-portfolio/static/js/main.98c6df01.js",
+    "main.js": "/makedonka-portfolio/static/js/main.1319c555.js",
     "static/js/787.9488d8c4.chunk.js": "/makedonka-portfolio/static/js/787.9488d8c4.chunk.js",
     "static/media/eatical_web_project.png": "/makedonka-portfolio/static/media/eatical_web_project.25168ea2ce72f2878739.png",
     "static/media/portfolio_project.png": "/makedonka-portfolio/static/media/portfolio_project.def116e2a2651eaaedb5.png",
@@ -20,11 +20,11 @@
     "static/media/MB_logo_outlined.svg": "/makedonka-portfolio/static/media/MB_logo_outlined.ca21ecd61abae07be0089c6ec4777be9.svg",
     "index.html": "/makedonka-portfolio/index.html",
     "main.5f2b820f.css.map": "/makedonka-portfolio/static/css/main.5f2b820f.css.map",
-    "main.98c6df01.js.map": "/makedonka-portfolio/static/js/main.98c6df01.js.map",
+    "main.1319c555.js.map": "/makedonka-portfolio/static/js/main.1319c555.js.map",
     "787.9488d8c4.chunk.js.map": "/makedonka-portfolio/static/js/787.9488d8c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f2b820f.css",
-    "static/js/main.98c6df01.js"
+    "static/js/main.1319c555.js"
   ]
 }
