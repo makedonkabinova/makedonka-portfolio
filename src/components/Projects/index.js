@@ -99,7 +99,8 @@ const Projects = () => {
             or born from curiosity rather than perfection.
             But each one carries a lesson: a new framework learned, a concept understood,
             a mistake corrected, a spark of creativity followed.
-            Together, they map the path of how I've grown as a developer.
+            Together, alongside other projects you can find on my github,
+            they map the path of how I've grown as a developer.
             Click on any card to explore it on GitHub, or use the action buttons to view the app.
           </p>
         </div>
