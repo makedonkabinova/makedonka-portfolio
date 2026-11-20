@@ -45,3 +45,99 @@
     }
   }
 }
+
+.project-card--buttons {
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30vh;
+  padding: 10%;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+
+  &:hover {
+    animation: pulse 2s;
+    background: #e8dfa7;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  h3 {
+    color: black;
+    margin-top: 10px;
+    font-size: 1.6vw;
+    font-family: sans-serif;
+
+    @media (max-width: 900px) {
+      font-size: 2.9vw;
+    }
+  }
+
+  p {
+    font-size: 1vw;
+    color: #555;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+    @media (max-width: 900px) {
+      font-size: 2.2vw;
+    }
+  }
+}
+
+.project-card__actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-card__btn {
+  text-decoration: none;
+  color: #333;
+  border: 1.5px solid #333;
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.85vw;
+  font-family: sans-serif;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: #333;
+    color: #fff;
+  }
+
+  @media (max-width: 900px) {
+    font-size: 2vw;
+  }
+}
+
+.project-card__btn--store {
+  color: #2a7a2a;
+  border-color: #2a7a2a;
+
+  &:hover {
+    background: #2a7a2a;
+    color: #fff;
+  }
+}
+
+.project-card__btn--live {
+  color: #1a5fa8;
+  border-color: #1a5fa8;
+
+  &:hover {
+    background: #1a5fa8;
+    color: #fff;
+  }
+}

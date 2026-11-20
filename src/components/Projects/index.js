@@ -6,6 +6,9 @@ import KidsDrawingApp from '../../assets/images/kids_drawing_app_project.png'
 import Portfolio from '../../assets/images/portfolio_project.png'
 import EaticalMobile from '../../assets/images/eatical_mobile_project.png'
 import LostAndFound from '../../assets/images/lost_and_found_project.png'
+import DivideRecycle from '../../assets/images/divide_and_recycle_android.png'
+import YogaAsanas from '../../assets/images/yoga_asanas_web.png'
+import OrganDetector from '../../assets/images/canny_edge_organ_detector.png'
 
 const Projects = () => {
   const projects = [
@@ -43,6 +46,7 @@ const Projects = () => {
       title: 'Lost and Found',
       imageUrl: LostAndFound,
       githubLink: '',
+      playStoreLink: '#',
       description: 'Simple app for lost and found items. The app is still in progress.'
     },
     {
@@ -54,6 +58,31 @@ const Projects = () => {
       title: 'Travel Assistant',
       githubLink: 'https://github.com/makedonkabinova/travel_assistant_flanT5',
       description: 'School project within the subject Deep Learning, in order to research and learn while finetuning the model Flan-T5 on different dataset variations.'
+    },
+    {
+      title: 'Divide&Recycle',
+      imageUrl: DivideRecycle,
+      githubLink: 'https://github.com/makedonkabinova/divide_and_recycle',
+      playStoreLink: '#',
+      description: 'Mobile Android app for classifying waste into different categories in order to help people recycle more and better.'
+    },
+    {
+      title: 'Yoga Asanas',
+      imageUrl: YogaAsanas,
+      githubLink: 'https://github.com/makedonkabinova/yoga_asanas',
+      liveLink: 'https://makedonkabinova.github.io/yoga_asanas/',
+      description: 'A web page that helped me better organize myself, explore and learn yoga asanas with a clean, interactive interface.'
+    },
+    {
+      title: 'Canny Edge Detector',
+      imageUrl: OrganDetector,
+      githubLink: 'https://github.com/makedonkabinova/canny_edge_detector',
+      description: 'Detecting organ contours in 3D CT medical images using the Canny Edge Detection algorithm - including noise reduction, Sobel gradient computation, non-maximum suppression, and hysteresis thresholding.'
+    },
+    {
+      title: 'Academic Life Support Assistant',
+      githubLink: 'https://github.com/UL-FRI-NLP-Course/ul-fri-nlp-course-project-2025-2026-mma',
+      description: 'NLP course project: a retrieval-based assistant that helps students discover relevant elective courses through semantic search, using SentenceTransformers, FAISS indexing, and LLaMA 3, with TF-IDF and ChatGPT baselines for evaluation.'
     }
   ];
 
@@ -66,11 +95,12 @@ const Projects = () => {
       </h1>
         <div className='text-zone'>
           <p className='projects-intro'>
-            Not every project here is polished — some are small, simple,
+            Not every project here is polished, some are small, simple,
             or born from curiosity rather than perfection.
             But each one carries a lesson: a new framework learned, a concept understood,
             a mistake corrected, a spark of creativity followed.
-            Together, they map the path of how I’ve grown as a developer.
+            Together, they map the path of how I've grown as a developer.
+            Click on any card to explore it on GitHub, or use the action buttons to view the app.
           </p>
         </div>
       <div className="project-list">
@@ -80,6 +110,8 @@ const Projects = () => {
             title={project.title}
             imageUrl={project.imageUrl}
             githubLink={project.githubLink}
+            playStoreLink={project.playStoreLink}
+            liveLink={project.liveLink}
             description={project.description}
           />
         ))}
