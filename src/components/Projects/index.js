@@ -9,6 +9,7 @@ import LostAndFound from '../../assets/images/lost_and_found_project.png'
 import DivideRecycle from '../../assets/images/divide_and_recycle_android.png'
 import YogaAsanas from '../../assets/images/yoga_asanas_web.png'
 import OrganDetector from '../../assets/images/canny_edge_organ_detector.png'
+import SoccerAnalysis from '../../assets/images/bundesliga_network_analysis.png'
 
 const Projects = () => {
   const projects = [
@@ -83,7 +84,12 @@ const Projects = () => {
       title: 'Academic Life Support Assistant',
       githubLink: 'https://github.com/UL-FRI-NLP-Course/ul-fri-nlp-course-project-2025-2026-mma',
       description: 'NLP course project: a retrieval-based assistant that helps students discover relevant elective courses through semantic search, using SentenceTransformers, FAISS indexing, and LLaMA 3, with TF-IDF and ChatGPT baselines for evaluation.'
-    }
+    },
+    {
+      title: 'Estimating Player Value in Football',
+      imageUrl: SoccerAnalysis,
+      githubLink: 'https://github.com/teodora-taleska/network_analysis_project',
+      description: 'Predicted Bundesliga players market values using passing network analysis, graph centrality metrics and machine learning models.'    }
   ];
 
   return (
