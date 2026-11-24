@@ -46,7 +46,7 @@ const Projects = () => {
     {
       title: 'Lost and Found',
       imageUrl: LostAndFound,
-      githubLink: '',
+      githubLink: 'https://github.com/makedonkabinova/lost-and-found',
       playStoreLink: '#',
       description: 'Simple app for lost and found items. The app is still in progress.'
     },

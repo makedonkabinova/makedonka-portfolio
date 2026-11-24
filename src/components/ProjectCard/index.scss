@@ -141,3 +141,9 @@
     color: #fff;
   }
 }
+
+.project-card__btn--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
